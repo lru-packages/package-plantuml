@@ -12,7 +12,7 @@ RHEL=$(shell rpm -q --queryformat '%{VERSION}' centos-release)
 
 #-------------------------------------------------------------------------------
 
-all: info clean compile package move
+all: info clean install-deps compile package move
 
 #-------------------------------------------------------------------------------
 
