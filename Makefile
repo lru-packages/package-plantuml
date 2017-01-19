@@ -90,7 +90,6 @@ package:
 		--rpm-compression gzip \
 		--rpm-os linux \
 		--rpm-changelog CHANGELOG.txt \
-		--rpm-dist el$(RHEL) \
 		--rpm-auto-add-directories \
 		usr/local/bin \
 		usr/local/share \
