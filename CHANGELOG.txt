@@ -1,2 +1,5 @@
+* Wed Jan 25 2017 Ryan Parman <ryan@ryanparman.com> 8054-1
+- Bundles PlantUML v8054.
+
 * Wed Jan 18 2017 Ryan Parman <ryan@ryanparman.com> 8053-1
 - Bundles PlantUML v8053.
