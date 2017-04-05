@@ -1,7 +1,6 @@
 NAME=plantuml
 VERSION=8059
-EPOCH=1
-ITERATION=1
+ITERATION=1.lru
 PREFIX=/usr/local
 LICENSE=BSD
 VENDOR="Arnaud Roques"
@@ -20,7 +19,6 @@ all: info clean install-deps compile package move
 info:
 	@ echo "NAME:        $(NAME)"
 	@ echo "VERSION:     $(VERSION)"
-	@ echo "EPOCH:       $(EPOCH)"
 	@ echo "ITERATION:   $(ITERATION)"
 	@ echo "PREFIX:      $(PREFIX)"
 	@ echo "LICENSE:     $(LICENSE)"
@@ -78,7 +76,6 @@ package:
 		-v $(VERSION) \
 		-C /tmp/installdir-$(NAME)-$(VERSION) \
 		-m $(MAINTAINER) \
-		--epoch $(EPOCH) \
 		--iteration $(ITERATION) \
 		--license $(LICENSE) \
 		--vendor $(VENDOR) \
