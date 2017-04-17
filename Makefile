@@ -1,5 +1,5 @@
 NAME=plantuml
-VERSION=8059
+VERSION=2017.09
 ITERATION=1.lru
 PREFIX=/usr/local
 LICENSE=BSD
@@ -55,7 +55,7 @@ compile:
 	mkdir -p /tmp/installdir-$(NAME)-$(VERSION)/usr/local/bin;
 	mkdir -p /tmp/installdir-$(NAME)-$(VERSION)/usr/local/share/plantuml;
 
-	git clone -q https://github.com/plantuml/plantuml.git && \
+	git clone -q -b v$(VERSION) https://github.com/plantuml/plantuml.git --depth=1 && \
 	cd plantuml && \
 		ant && \
 		cp plantuml.jar /tmp/installdir-$(NAME)-$(VERSION)/usr/local/share/plantuml/plantuml.jar \
