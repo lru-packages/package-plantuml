@@ -1,3 +1,6 @@
+* Thu Nov 23 2017 Ryan Parman <ryan@ryanparman.com> 1.2017.19-1
+- Bundles PlantUML v1.2017.19.
+
 * Mon Apr 17 2017 Ryan Parman <ryan@ryanparman.com> 2017.09-1
 - Bundles PlantUML v2017.09.
 
